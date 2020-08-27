@@ -31,6 +31,7 @@ train, test, train_labels, test_labels = train_test_split(X,y,test_size=0.33,ran
 # Initialize our classifier
 # Create Decision Tree classifer object
 
+#different classifiers used, uncomment the classifier that is needed and train the data
 clf =SVC(kernel='rbf', C=2)
 #clf = SVC(kernel = 'linear')
 #clf = SVC(kernel = 'poly')
